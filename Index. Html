@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Temple Profile Generator</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">PRE-PROFILE</a>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="https://github.com/itz-raxxi" class="nav-links">About Us</a></li>
+                <li class="nav-item"><a href="https://www.instagram.com/itz_raxxi" class="nav-links">Contact</a></li>
+                <li class="nav-item close-btn-item"><i class="fas fa-times" id="close-menu"></i></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="editor-container animate-on-scroll">
+            <div class="upload-area">
+                <input type="file" id="file-input" accept="image/*">
+                <label class="btn-upload" for="file-input">
+                    <i class="fas fa-camera"></i> Upload Photo
+                </label>
+            </div>
+            
+            <div class="canvas-wrapper">
+                <canvas id="image-canvas"></canvas>
+                <div id="loading-text">
+                    <i class="fas fa-spinner fa-spin"></i> Loading...
+                </div>
+            </div>
+            
+            <div class="tips">
+                <p><i class="fas fa-hand-pointer"></i> Pinch to Zoom & Drag to Move</p>
+            </div>
+
+            <button id="download-button" class="btn-download" disabled>
+                <i class="fas fa-download"></i> Download Image
+            </button>
+        </section>
+
+        <section class="info-section animate-on-scroll">
+            <div class="kannada-text">
+                <h3>ಶ್ರೀ ಸೂರ್ಯನಾರಾಯಣ ದೇವಾಲಯ</h3>
+                <p>
+                    ನಾರಾವಿ ಎಂಬುದು ದ.ಕ ಜಿಲ್ಲೆಯ ಬೆಳ್ತಂಗಡಿ ತಾಲೂಕಿನ ನಿಸರ್ಗರಮಣೀಯ ಪರಿಸರದಲ್ಲಿರುವ ಒಂದು ಸುಂದರ ಪ್ರದೇಶ, ಈ ಊರಿಗೆ ಖ್ಯಾತಿ ತಂದು ಕೊಟ್ಟಿರುವುದು ಭಗವಾನ್ ಶ್ರೀ ಸೂರ್ಯನಾರಾಯಣ ದೇವಾಲಯ. ಶ್ರೀ ಸೂರ್ಯದೇವರನ್ನು ಮನುಕುಲವು ಭಯ, ವಿಸ್ಮಯ, ಭಕ್ತಿಗಳಿಂದ ಅನಾದಿ ಕಾಲದಿಂದಲೂ ಆರಾಧಿಸುತ್ತಾ ಬಂದಿದೆ. ಋಗ್ವೇದದ ತುಂಬೆಲ್ಲ ಸೂರ್ಯದೇವರ ಕಲ್ಪನೆ ಮಹಿಮೆಗಳು ತುಂಬಿಕೊಂಡಿವೆ. ಇಂತಹ ಅಪಾರ ಮಹಿಮಾ ವಿಶೇಷವುಳ್ಳ, ಜಗದೇಕ ಚಕ್ಷುವೆನಿಸಿದ, ಕಣ್ಣಳತೆಗೆ ನಿಲುಕದ ಈ ಪ್ರಚಂಡ ಬೆಳಕಿನ ಪುಂಜವನ್ನು ಹತ್ತಿರದಿಂದ ವಿಗ್ರಹ ರೂಪದಲ್ಲಿ ದರ್ಶನ ಮಾಡುವ ಅಪೂರ್ವ ಪುಣ್ಯವು ನಾರಾವಿಯ ಶ್ರೀ ಸೂರ್ಯನಾರಾಯಣ ದೇಗುಲದಲ್ಲಿ ಸಾಕಾರಗೊಂಡಿದೆ.
+                    <br><br>
+                    ಭಾರತ ದೇಶದಲ್ಲೇ ಸೂರ್ಯ ದೇವಾಲಯಗಳು ವಿರಳ. ನಿತ್ಯವೂ ವ್ಯವಸ್ಥಿತವಾಗಿ ತ್ರಿಕಾಲ ಪೂಜೆ ನಡೆಯುವ ಕರ್ನಾಟಕದ ಬಹಳ ಅಪೂರ್ವ ಸೂರ್ಯನಾರಾಯಣ ದೇವಾಲಯ ನಾರಾವಿಯಲ್ಲಿದೆ. ಈ ದೇವಸ್ಥಾನದ ಇತಿಹಾಸವನ್ನು ಗಮನಿಸಿದರೆ ಕ್ರಿ.ಶ 1489ನೇ ಸೌಮ್ಯ ಸಂವತ್ಸರದ ಮೀನ ಮಾಸದ (ಸಂಕ್ರಮಣ) ಪರ್ವಕಾಲದಲ್ಲಿ ಸೋಮನಾಥನೆಂಬ ಮಾಂಡಲೀಕನ ಆಡಳಿತಾವಧಿಯಲ್ಲಿ ರಮಾದೇವಿ ಎಂಬ ಭಕ್ತೆಯು ಸೂರ್ಯನ ಆರಾಧನೆಗಾಗಿ ಈ ದೇವಾಲಯ ನಿರ್ಮಿಸಲು ಭೂಮಿಯನ್ನು ದಾನವಾಗಿ ನೀಡಿದಳೆಂಬ ಉಲ್ಲೇಖವಿರುವ ಶಿಲಾಶಾಸನವಿದೆ.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Created by <a href="https://www.instagram.com/mr_raxxi_mk" target="_blank" class="social-link"><i class="fab fa-instagram"></i> mr_raxxi_mk</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
